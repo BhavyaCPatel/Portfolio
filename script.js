@@ -1,3 +1,10 @@
+var typed= new Typed(".auto-type", {
+    strings: ["developer","designer","freelance"],
+    typeSpeed: 100,
+    backSpeed: 100,
+    loop: true
+})
+
 const observer = new IntersectionObserver((entries)=>{
     entries.forEach((entry)=>{
         console.log(entry)
