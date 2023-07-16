@@ -1,0 +1,197 @@
+/* body{
+    color: #1f172b;
+    color:#caaeeb;
+    color:#9077b6;
+    color:#49306e;
+    color:#edca95;
+    color:#47ed4a;
+    color:#4e2f7c;
+} */
+/*body{
+    color:#52379e;
+    color:#3a276d;
+    color:#684fb5;
+    color:#8a5bbf;
+    color:#1e1e1e;
+    color:#edca95;
+    color:#228b22;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+*{
+    font-family: 'Tilt Neon';
+}
+.hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 3s;
+}
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+.navbar{
+    background-color: #52379e;
+}
+#logo{
+    height: 60px;
+    margin-right: 56rem;
+}
+li .nav-link{
+    color: #f7f0cd;
+}
+.hero{
+    background-image:linear-gradient(rgba(68, 41, 142, 0.53),rgba(84, 49, 179, 0.53)),url("/Assets/Profile1.png");  
+    height:800px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #f7f0cd;
+    position: relative;
+    text-align: center;
+}
+.content {
+    position: absolute;
+    margin-top: 30em;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.content h1{
+    font-size: 6.8em;
+    font-weight: 100;
+}
+.content p{
+    font-size: 1.5em;
+    font-weight: 100;
+}
+.info{
+    background-color: #461780;
+    color: #f7f0cd;
+}
+.info p{
+    padding: 2em 6em;
+}
+.skills h4{
+    margin: 0.3em;
+    padding: 0px;
+}
+.progress-bar{
+    background: #29104f;
+    width: 600px;
+    height: 25px;
+    border-radius: 5em;
+}
+.progress-bar div{
+    height: 25px;
+    border-radius: 5px;
+    background:#29104f;
+    width: 0%;
+}
+.progress-bar div span{
+    float: right;
+}
+.html{
+    width: 99%;
+    animation: html 3s linear forwards;
+    animation-delay: 2s;
+}
+@keyframes html{
+    100%{
+        width: 99%;
+    }
+}
+.css{
+    width:75%;
+    animation: css 3s linear forwards;
+    animation-delay: 2s;
+}
+@keyframes css{
+    100%{
+        width: 75%;
+    }
+}
+.js{
+    width: 80%;
+    animation: js 3s linear forwards;
+    animation-delay: 2s;
+}
+@keyframes js{
+    100%{
+        width: 80%;
+    }
+}
+.react{
+    width: 40%;
+    animation: react 3s linear forwards;
+    animation-delay: 2s;
+}
+@keyframes react{
+    100%{
+        width: 40%;
+    }
+} 
+.ui{
+    width: 60%;
+    animation: ui 3s linear forwards;
+    animation-delay: 2s;
+}
+@keyframes ui{
+    100%{
+        width: 60%;
+    }
+}
+.projects{
+    background-color: #461780;
+}
+.projects h1{
+    color: #f7f0cd;
+}
+.card{
+    width: 15em;
+    margin: 3em 3em;
+}
+.card:nth-child(2){
+    transition-delay: 500ms;
+}
+.card:nth-child(3){
+    transition-delay: 500ms;
+}
+.card:nth-child(4){
+    transition-delay: 500ms;
+}
+.card:nth-child(5){
+    transition-delay: 500ms;
+}
+.card:nth-child(6){
+    transition-delay: 500ms;
+}   
+#contact{
+    background-color: #461780;
+    color: #f7f0cd;
+}
+#contact button{
+    border: 2px solid black;
+    border-radius: 5px;
+    background: white;
+}
+#contact button:hover{
+    background-color: rgb(180, 179, 179);
+    border: 2px solid black;
+    border-radius: 5px;
+}
+#demo{
+    background-color: #461780;
+    color: #f7f0cd;
+}
+.social
+{
+    margin: 10px;
+    margin-left: 48%;    
+}
+.social a{
+    color: rgba(240, 248, 255, 0.445);
+}
+.social a:hover{
+    text-shadow: 0 0 5px aliceblue;
+}

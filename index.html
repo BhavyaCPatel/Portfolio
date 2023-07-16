@@ -4,8 +4,191 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="/bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous">
+    </script>
+    <script src="https://kit.fontawesome.com/637e241aa1.js" crossorigin="anonymous"></script>
+    <script defer src="script.js"></script>
 </head>
-<body>
-    
+<body style="background-color: #461780;">
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="/Assets/logo.png" alt="logo" id="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#info">info</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="hero">
+        <div class="content hidden">
+            <h1>Bhavya Patel</h1>
+            <p>Web-developer & Designer</p>
+        </div>
+    </div>
+    <div class="info" id="info">
+        <h1 class="text-center pt-5 hidden">Hi, I'm Bhavya Patel</h1>
+        <p class="text-center hidden">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos natus atque officia a quisquam rerum asperiores ratione sit, animi alias. Magni fuga rerum debitis aliquam eligendi error velit dolore reprehenderit saepe porro repellat incidunt dolorem nostrum deserunt eaque praesentium ipsam numquam omnis ullam, mollitia voluptatum? Impedit, perferendis. Cupiditate, odio obcaecati.</p>
+        <br><br>
+        <div class="container hidden">
+        <div class="skills">
+            <h4>HTML</h4>
+            <div class="progress-bar hidden">
+                <div class="html hidden"><span>99%</span></div>
+            </div><br>
+            <h4>CSS</h4>
+            <div class="progress-bar hidden">
+                <div class="css hidden"><span>75%</span></div>
+            </div><br>
+            <h4>Javascript</h4>
+            <div class="progress-bar hidden">
+                <div class="js hidden"><span>80%</span></div>
+            </div><br>
+            <h4>React</h4>
+            <div class="progress-bar hidden">
+                <div class="react hidden"><span>40%</span></div>
+            </div><br>
+            <h4>UI/UX</h4>
+            <div class="progress-bar hidden">
+                <div class="ui hidden"><span>60%</span></div>
+            </div><br>
+        </div>
+        </div>
+    </div>
+    <div class="projects" id="projects">
+        <h1 class="text-center pt-5 hidden">My recent works</h1>
+        <div class="container mt-5">
+            <div class="row m-3">
+            <div class="card col hidden">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Sweat Zone</h5>
+                    <p class="card-text pt-3">A website for gyms which is built using only html and css. It consists of a login-page, facilities, etc. </p>
+                    <a href="https://github.com/BhavyaCPatel/Gym-Website/tree/main" class="card-link">Github</a>
+                    <a href="https://sweatzone.netlify.app/" class="card-link">Live Demo</a>
+                </div>
+            </div>
+            <div class="card col hidden">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Vintage Boys</h5>
+                    <p class="card-text pt-3">A sports fashion company it has a main-page with company's overview
+                        and a store page with lastest fashion it is built with html, css and bootstrap.</p>
+                    <a href="https://github.com/BhavyaCPatel/Sports-fashion-store" class="card-link">Github</a>
+                    <a href="https://vintageboys.netlify.app/" class="card-link">Live Demo</a>
+                </div>
+            </div>
+            <div class="card col hidden">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Apple Clone</h5>
+                    <p class="card-text pt-3">A clone of apple's official website built with html, css and bootstrap.</p>
+                    <a href="https://github.com/BhavyaCPatel/Apple-Clone" class="card-link">Github</a>
+                    <a href="https://applec.netlify.app/" class="card-link">Live Demo</a>
+                </div>
+            </div>
+            </div>
+            <div class="row m-3">
+            <div class="card col hidden">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Yelp Camp</h5>
+                    <p class="card-text pt-3">Yelp Camp is a camping website that helps outdoor enthusiasts discover the best campsites close to nature and embark on adventurous experiences.</p>
+                    <a href="https://github.com/BhavyaCPatel/Camping-website" class="card-link">Github</a>
+                    <a href="https://yelpcampsites.netlify.app/" class="card-link">Live Demo</a>
+                </div>
+            </div>
+            <div class="card col hidden">
+                <div class="card-body">
+                    <h5 class="card-title text-center">ClearSky Forecast</h5>
+                    <p class="card-text pt-3">ClearSky Forecast is a weather application that allows users to fetch and view weather information for any city. Get accurate and up-to-date weather forecasts to plan your day or stay informed about weather conditions around the world.</p>
+                    <a href="https://github.com/BhavyaCPatel/Weather-app" class="card-link">Github</a>
+                    <a href="https://clearskyforecast.netlify.app/" class="card-link">Live Demo</a>
+                </div>
+            </div>
+            <div class="card col hidden">
+                <div class="card-body">
+                    <h5 class="card-title text-center">The Informative Corner</h5>
+                    <p class="card-text pt-3">My personal Blogs website where I write blogs on indemand topics and help spread information.</p>
+                    <a href="#" class="card-link">Github</a>
+                    <a href="#" class="card-link">Live Demo</a>
+                </div>
+            </div>
+            </div>
+        </div><br><br>
+    </div>
+    <div id="contact" class="container-fluid ">
+        <h1 class="text-center me-2 ms-2 mb-3 p-2 hidden">Contact</h1>
+        <div class="row hidden">
+          <div class="col-sm-5">
+            <p><h4>For more information contact me.</h4></p>
+            <p><i class="fa-solid fa-location-dot"></i>&nbsp;Gujarat, India</p>
+            <p><i class="fa-solid fa-phone"></i>&nbsp;270-798-4865</p>
+            <p><i class="fa-solid fa-envelope"></i>&nbsp;myemail@mail.com</p>
+          </div>
+          <div class="col-sm-7">
+            <div class="row">
+              <div class="col-sm-6 form-group">
+                <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+              </div>
+              <div class="col-sm-6 form-group">
+                <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+              </div>
+            </div><br>
+            <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+            <div class="row">
+              <div class="col-sm-12 form-group d-grid">
+                <button class="btn btn-block" type="submit">Send</button>
+              </div>
+            </div><br>
+          </div>
+        </div>
+      </div>
+      <div id="demo" class="carousel slide container-fluid" data-bs-ride="carousel">
+        <br><u><h2 class="text-center">What our customers say about us</h2></u>
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <h4 class="text-center m-5 p-5"><b>"This company is the best. I am so happy with the result!"</b> <br><span>Michael Roe, Vice President, Comment Box</span></h4>
+            </div>
+            <div class="carousel-item">
+                <h4 class="text-center m-5 p-5"><b>"One word... WOW!!"</b><br><span>John Doe, Salesman, Rep Inc</span></h4>
+            </div>
+            <div class="carousel-item">
+                <h4 class="text-center m-5 p-5"><b>"Could I... BE any more happy with this company"</b> <br><span>Chandler Bing, Actor, FriendsAlot</span></h4>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div><br>
+    <div class="social">
+        <a href="https://www.linkedin.com/in/bhavya-patel-b2820322a/"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://twitter.com/PatelBhavyaaes"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://github.com/BhavyaCPatel"><i class="fa-brands fa-github"></i></a>
+    </div>
 </body>
 </html>
