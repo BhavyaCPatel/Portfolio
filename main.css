@@ -74,13 +74,13 @@ li .nav-link{
     float: right;
 }
 .html{
-    width: 99%;
+    width: 95%;
     animation: html 3s linear forwards;
     animation-delay: 2s;
 }
 @keyframes html{
     100%{
-        width: 99%;
+        width: 95%;
     }
 }
 .css{
