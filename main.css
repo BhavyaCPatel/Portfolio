@@ -104,13 +104,13 @@ li .nav-link{
     }
 }
 .react{
-    width: 50%;
+    width: 70%;
     animation: react 3s linear forwards;
     animation-delay: 2s;
 }
 @keyframes react{
     100%{
-        width: 50%;
+        width: 70%;
     }
 } 
 .ui{
@@ -123,6 +123,7 @@ li .nav-link{
         width: 60%;
     }
 }
+
 .projects{
     background-color: #461780;
 }
